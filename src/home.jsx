@@ -155,7 +155,7 @@ export default function Home({ detail ,view, close, setClose, addtocart}) {
 
         <Box className="product">
           <h2>Top Products</h2>
-          <Box className="container" width='90%' display='flex' flexDirection={{xs:'column' , sm:'row'}} alignItems={{xs:'center' , sm:'normal'}}>
+          <Box className="container" justifyContent='space-between' gap={2} display='flex' flexDirection={{xs:'column' , sm:'row'}} alignItems={{xs:'center' , sm:'normal'}}>
             {
               HomeProduct.map((curElm)=>{
                 return(
